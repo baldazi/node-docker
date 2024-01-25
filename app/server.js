@@ -6,4 +6,4 @@ app.get('/', (req, res)=>{
     res.send("hello");
 })
 
-app.listen(3307)
+app.listen(3000, ()=> console.log("bienvenue"))
